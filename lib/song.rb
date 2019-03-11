@@ -15,7 +15,16 @@ class Song
     @@genres << genre
   end
   
-  def selt.count
+  def self.count
     @@count
+  end
+  
+  def self.artists
+    @@artists
+  end
+  
+  def self.genres
+    @@genres
+  end
     
 end
