@@ -14,4 +14,8 @@ class Song
     @@artists << artist
     @@genres << genre
   end
+  
+  def selt.count
+    @@count
+    
 end
